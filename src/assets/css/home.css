@@ -1,0 +1,62 @@
+
+:root {
+    --main-color: #FF017E;
+    --secondary-color: #FE0000;
+    --secondary-hover-color: #f54949;
+    --third-color: #DFDFDF;
+    --fourth-color: #EEEEEE;
+    --gray-color: #464646;
+    --orange-color: #FE4D00;
+}
+
+.bg-dark {
+    background-color: #0A0A0A;
+}
+
+.nav-item:hover {
+    color: var(--main-color) !important;
+}
+
+.nav-item {
+    color: white !important;
+}
+
+.bg-main-color {
+    background-color: var(--main-color) !important;
+}
+
+.send-button {
+    background-color: var(--secondary-color) !important;
+}
+
+.send-button:hover {
+    background-color: var(--secondary-hover-color) !important;
+}
+
+.header-section {
+    background-color: var(--third-color) !important;
+}
+
+.card-media {
+    background-color: var(--fourth-color) !important;
+}
+
+.h-134 {
+    height: 34rem;
+}
+
+.btn-primary {
+    background-color: var(--secondary-color) !important;
+}
+
+.btn-primary:hover {
+    background-color: var(--secondary-hover-color) !important;
+}
+
+.container-info {
+    background-color: var(--gray-color) !important;
+}
+
+.container-count {
+    background-color: var(--orange-color) !important;
+}
