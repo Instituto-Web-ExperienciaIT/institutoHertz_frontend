@@ -60,3 +60,11 @@
 .container-count {
     background-color: var(--orange-color) !important;
 }
+
+.footer {
+    background-color: var(--gray-color) !important;
+}
+
+.footer-input {
+    background-color: var(--gray-color) !important;
+}

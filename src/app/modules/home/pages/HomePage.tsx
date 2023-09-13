@@ -4,6 +4,11 @@ import { NavLink } from "react-router-dom"
 import "../../../../assets/css/home.css"
 import Logo from "../../../../assets/img/logo.png"
 import { TrendingUp } from '../../../../assets/icons/TrendingUp';
+import { PlayIcon } from '../../../../assets/icons/PlayIcon';
+import { DeezerIcon } from '../../../../assets/icons/DeezerIcon';
+import { InstagramIcon } from '../../../../assets/icons/InstagramIcon';
+import { TwitterIcon } from '../../../../assets/icons/TwitterIcon';
+import { FacebookIcon } from '../../../../assets/icons/FacebookIcon';
 import {
   ArrowDownIcon,
   EmailIcon,
@@ -172,7 +177,7 @@ export const HomePage = () => {
             <div className="col-span-12 lg:col-span-5 flex flex-col gap-16">
               <div>
                 <h5 className="text-2xl">Participá de nuestras</h5>
-                <h3 className="text-5xl">Charlas Informativas y Eventos Gratuitos</h3>
+                <h3 className="text-4xl">Charlas Informativas y Eventos Gratuitos</h3>
               </div>
               <small>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias, dolor ducimus! Fuga doloremque repellat, minus quae nostrum harum voluptatem autem aperiam modi esse odit, minima saepe. Molestias facere voluptate possimus. Molestias facere voluptate possimus. Molestias facere voluptate possimus. Molestias facere voluptate possimus. Molestias facere voluptate possimus.</small>
               <button className="container-count rounded-full w-28 px-2 py-1 text-white">
@@ -236,7 +241,176 @@ export const HomePage = () => {
             </div>
           </div>
         </section>
+
+        <section className="px-10 md:px-32 my-24"> 
+          <div className="grid grid-cols-12 gap-6">
+            <div className="col-span-12">
+              <h5 className="text-2xl">Conocé más de</h5>
+              <h2 className="text-4xl">NUESTRA ESCUELA</h2>
+
+              <div className="w-full mt-12">
+                {/* Header */}
+                <div className="container-info rounded-t-2xl py-4 px-3">
+                  <div className="flex justify-between items-center">
+                    <div className="flex justify-center items-center gap-3">
+                    </div>
+                  </div>
+                </div>
+
+                {/* Body */}
+                <div className="h-72 card-media border border-gray-400 flex flex-col justify-center items-center">
+                  <PlayIcon />
+                </div>
+
+                {/* Footer */}
+                <div className="container-info text-gray-300 rounded-b-2xl py-4 px-3">
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section className="px-10 md:px-32 my-24">
+          <div className="grid grid-cols-12 gap-10">
+            <div className="col-span-12 text-center">
+              <div>
+                <h5 className="text-2xl">Explorá y vibrá con</h5>
+                <h3 className="text-4xl">Hertz</h3>
+              </div>
+            </div>
+            <div className="col-span-12 md:col-span-4 gap-6 py-5">
+              <div className="w-full">
+                {/* Body */}
+                <div className="h-52 card-media rounded-t-3xl flex flex-col justify-center items-center border border-gray-400">
+                  <DeezerIcon />
+                </div>
+
+                {/* Footer */}
+                <div className="container-info text-gray-300 rounded-b-3xl py-3 px-3">
+                  <h6>Titulo</h6>
+                  <br />
+                  <small>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur fuga.</small>
+                </div>
+              </div>
+            </div>
+
+            <div className="col-span-12 md:col-span-4 gap-6 py-5">
+              <div className="w-full">
+                {/* Body */}
+                <div className="h-52 card-media flex flex-col justify-center items-center rounded-t-3xl border border-gray-400">
+                  <PlayIcon />
+                </div>
+
+                {/* Footer */}
+                <div className="container-info text-gray-300 rounded-b-3xl py-3 px-3">
+                  <h6>Titulo</h6>
+                  <br />
+                  <small>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur fuga.</small>
+                </div>
+              </div>
+            </div>
+
+            <div className="col-span-12 md:col-span-4 gap-6 py-5">
+              <div className="w-full">
+                {/* Body */}
+                <div className="h-52 card-media rounded-t-3xl border border-gray-400">
+
+                </div>
+
+                {/* Footer */}
+                <div className="container-info text-gray-300 rounded-b-3xl py-3 px-3">
+                  <h6>Titulo</h6>
+                  <br />
+                  <small>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur fuga.</small>
+                </div>
+              </div>              
+            </div>
+
+            <div className="col-span-12 md:col-span-4 gap-6 py-5">
+              <div className="w-full">
+                {/* Body */}
+                <div className="h-52 card-media rounded-t-3xl flex flex-col justify-center items-center border border-gray-400">
+                  <DeezerIcon />
+                </div>
+
+                {/* Footer */}
+                <div className="container-info text-gray-300 rounded-b-3xl py-3 px-3">
+                  <h6>Titulo</h6>
+                  <br />
+                  <small>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur fuga.</small>
+                </div>
+              </div>
+            </div>
+
+            <div className="col-span-12 md:col-span-4 gap-6 py-5">
+              <div className="w-full">
+                {/* Body */}
+                <div className="h-52 card-media flex flex-col justify-center items-center rounded-t-3xl border border-gray-400">
+                  <PlayIcon />
+                </div>
+
+                {/* Footer */}
+                <div className="container-info text-gray-300 rounded-b-3xl py-3 px-3">
+                  <h6>Titulo</h6>
+                  <br />
+                  <small>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur fuga.</small>
+                </div>
+              </div>
+            </div>
+
+            <div className="col-span-12 md:col-span-4 gap-6 py-5">
+              <div className="w-full">
+                {/* Body */}
+                <div className="h-52 card-media rounded-t-3xl border border-gray-400">
+
+                </div>
+
+                {/* Footer */}
+                <div className="container-info text-gray-300 rounded-b-3xl py-3 px-3">
+                  <h6>Titulo</h6>
+                  <br />
+                  <small>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur fuga.</small>
+                </div>
+              </div>              
+            </div>
+
+          </div>
+        </section>
+
       </main>
+
+      <footer>
+        <div className="footer p-7 grid grid-cols-12 text-white">
+          <div className="col-span-12 md:col-span-6">
+            <p>Registrate a nuestra newsletter</p>
+            <div className="py-1"></div>
+            <div className="flex items-center gap-4">
+              <input type="text" placeholder="Correo electrónico" className="px-7 py-2 w-80 footer-input rounded" />
+              <button className="btn-primary rounded-full text-sm py-2 px-7 text-white uppercase font-semibold">SUSCRIBIRSE</button>
+            </div>
+          </div>
+          <div className="col-span-12 md:col-span-6 flex ml-auto gap-5 text-left">
+            <div className="flex flex-col gap-2">
+              <small className="text-gray-300">+54 911 648 803</small>
+              <small>CONSERVATORIOHERTZ@GMAIL.COM</small>
+              <small>Palermo, CABA</small>
+            </div>
+            <div className="flex flex-col gap-2">
+              <small>TRABAJA CON NOSOTROS</small>
+              <small className="text-gray-300"><a href="#">Política de privacidad</a></small>
+              <small><a href="#">TÉRMINOS Y CONDICIONES</a></small>
+            </div>
+          </div>
+        </div>
+        <div className="bg-dark px-7 py-4 text-white flex justify-between">
+          <small>Copyright @ Conservatorio Hertz 2023</small>
+          <div className="flex gap-4">
+            <span className="cursor-pointer"><InstagramIcon /></span>
+            <span className="cursor-pointer"><TwitterIcon /></span>
+            <span className="cursor-pointer"><FacebookIcon /></span>
+          </div>
+        </div>
+      </footer>
     </>
   )
 }
